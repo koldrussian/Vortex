@@ -32,7 +32,7 @@
     "clean": "yarn add rm-local-modules && rm-local-modules && yarn install --check-files",
     "preinstall": "git submodule update --init --recursive",
     "test": "jest --no-cache",
-    "lint": "eslint -c .eslintrc.js --ext .ts,.tsx",
+    "lint": "eslint . -c .eslintrc.js --ext .ts,.tsx",
     "build": "yarn run build_rest && tsc -p .",
     "buildwatch": "yarn run build_rest && tsc -p . --watch",
     "buildext": " node ./tools/buildScripts/buildSingleExtension.js"

@@ -13,7 +13,6 @@ module.exports = {
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "tsconfigRootDir": __dirname,
         "project": "./tsconfig.json",
         "sourceType": "module"
     },
@@ -236,7 +235,6 @@ module.exports = {
             "error",
             "never"
         ],
-        "prefer-arrow/prefer-arrow-functions": "error",
         "prefer-const": "error",
         "prefer-object-spread": "error",
         "quote-props": [

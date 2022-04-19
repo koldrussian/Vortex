@@ -1,3 +1,5 @@
 **/*.json
-**/*.tsx
-**/*.ts
+sourcemaps
+node_modules
+dist
+.eslintrc.js
